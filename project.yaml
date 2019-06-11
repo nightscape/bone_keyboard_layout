@@ -1,0 +1,33 @@
+# An internal identifier for the project
+internalName: bone
+
+# Strings for describing the project, using ISO 639-1 or 639-3 tags.
+locales:
+  en:
+    name: "BONE Keyboard Layout"
+    description: "A BONE keyboard"
+  de:
+    name: "BONE Tastatur Layout"
+    description: "BONE Tastatur Layout"
+
+# Author and email properties
+author: Martin Mauch
+email: martin.mauch@gmail.com
+
+# Layouts supported by this project, without .yaml suffix
+layouts: [bone]
+
+# Target-specific configurations at project level (may also include osx, win, etc)
+targets:
+  android:
+    version: "1.0"
+    build: "1"
+    packageId: com.example.keyboards
+  ios:
+    version: "1.0"
+    build: "1"
+    packageId: com.example.keyboards
+  win:
+    version: "1.0"
+    uuid: "bf5e0ebc-46d8-4fc8-b268-12e82ae62348"
+    packageId: kbd_de_bone
